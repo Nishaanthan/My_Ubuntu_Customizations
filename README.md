@@ -1,4 +1,4 @@
-# My_Ubuntu_Customizations
+# My Ubuntu Customizations
 
 First clone this repository using the below command
 ```bash
