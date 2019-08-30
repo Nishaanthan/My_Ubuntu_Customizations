@@ -1,6 +1,8 @@
 #!/bin/bash
 
-# remove quite splash in ubuntu to see a text interface bootup
+#  remove quite splash in ubuntu to see a text interface bootup
+#  change line GRUB_CMDLINE_LINUX_DEFAULT="quiet splash" to GRUB_CMDLINE_LINUX_DEFAULT=""
+#  $ sudo update-grub2
 
 #  My ZSH Plugins
 #    * Autojump
