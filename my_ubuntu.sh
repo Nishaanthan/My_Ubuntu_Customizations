@@ -2,6 +2,13 @@
 
 # remove quite splash in ubuntu to see a text interface bootup
 
+#  My ZSH Plugins
+#    * Autojump
+#    * Syntax Highlighter
+#    * Auto Suggestion
+#    * Antigen
+
+
 cat << EOF
 
        =================================================
@@ -48,6 +55,23 @@ EOF
 sudo add-apt-repository ppa:danielrichter2007/grub-customizer
 sudo apt-get update
 sudo apt-get install grub-customizer
+
+
+cat << EOF
+
+       =================================================
+       =================================================
+       ====                                         ====
+       ====         INSTALLING GOOGLE CHROME        ====
+       ====                                         ==== 
+       =================================================
+       =================================================
+
+EOF
+
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo dpkg -i google-chrome-stable_current_amd64.deb
 
 cat << EOF
 
