@@ -1,6 +1,7 @@
 #!/bin/bash
 
 #  remove quite splash in ubuntu to see a text interface bootup
+#  sudo nano /etc/default/grub
 #  change line GRUB_CMDLINE_LINUX_DEFAULT="quiet splash" to GRUB_CMDLINE_LINUX_DEFAULT=""
 #  $ sudo update-grub2
 
