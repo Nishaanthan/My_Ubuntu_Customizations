@@ -11,6 +11,9 @@
 #    * Auto Suggestion
 #    * Antigen
 
+# Node JS Development Environment tools
+#    * NVM - Node Version Manager
+
 
 cat << EOF
 
@@ -183,6 +186,26 @@ cat << EOF
 EOF
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+cat << EOF
+
+       =================================================
+       =================================================
+       ====                                         ====
+       ====     INSTALLING YARN & NODE & NPM        ====
+       ====                                         ==== 
+       =================================================
+       =================================================
+
+EOF
+
+curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+sudo apt-get update  
+sudo apt install yarn
+sudo apt install nodejs
+npm install -g nodemon 
+
 
 cat << EOF
 
