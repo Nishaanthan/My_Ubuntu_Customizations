@@ -10,9 +10,13 @@
 #    * Syntax Highlighter
 #    * Auto Suggestion
 #    * Antigen
+#    * Last Working Directory
 
 # Node JS Development Environment tools
 #    * NVM - Node Version Manager
+
+# https://blog.zhaytam.com/2019/04/19/powerline-and-zshs-agnoster-theme-in-vs-code/ to Setup Visual Studio Code integrated terminal ZSH Theme 
+# sudo apt-get install imagemagick
 
 
 cat << EOF
