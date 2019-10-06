@@ -31,3 +31,6 @@ and then run the executable file
 #### File Manager (Deepin)
 ![alt text](https://raw.githubusercontent.com/Nishaanthan/My_Ubuntu_Customizations/master/screenshots/DeepinScreenshot_nautilus_20191006141438.png)
 
+#### Vim Editor
+![alt text](https://raw.githubusercontent.com/Nishaanthan/My_Ubuntu_Customizations/master/screenshots/DeepinScreenshot_deepin-terminal_20191006150002.png)
+
