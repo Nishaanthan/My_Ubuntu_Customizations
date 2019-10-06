@@ -18,6 +18,12 @@
 # https://blog.zhaytam.com/2019/04/19/powerline-and-zshs-agnoster-theme-in-vs-code/ to Setup Visual Studio Code integrated terminal ZSH Theme 
 # sudo apt-get install imagemagick
 
+# installing python pip
+# sudo apt install python-pip
+
+# installing openCV
+# sudo apt install python3-opencv
+
 
 cat << EOF
 
